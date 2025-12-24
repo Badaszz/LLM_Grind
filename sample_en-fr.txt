@@ -1,0 +1,6 @@
+hello<EOS>bonjour<EOS>
+how are you<EOS>comment ça va<EOS>
+i am a student<EOS>je suis étudiant<EOS>
+thank you<EOS>merci<EOS>
+good morning<EOS>bon matin<EOS>
+my friend<EOS>mon ami<EOS>
