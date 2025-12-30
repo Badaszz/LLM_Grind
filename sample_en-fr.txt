@@ -4,3 +4,51 @@ i am a student<EOS>je suis étudiant<EOS>
 thank you<EOS>merci<EOS>
 good morning<EOS>bon matin<EOS>
 my friend<EOS>mon ami<EOS>
+what is your name<EOS>quel est votre nom<EOS>
+i speak english<EOS>je parle anglais<EOS>
+do you speak french<EOS>parlez vous français<EOS>
+nice to meet you<EOS>enchanté de vous rencontrer<EOS>
+where are you from<EOS>d'où venez vous<EOS>
+i love paris<EOS>j'aime paris<EOS>
+can i help you<EOS>puis je vous aider<EOS>
+how much does it cost<EOS>combien ça coûte<EOS>
+i am sorry<EOS>je suis désolé<EOS>
+see you later<EOS>à bientôt<EOS>
+the weather is nice<EOS>le temps est beau<EOS>
+i like this book<EOS>j'aime ce livre<EOS>
+have you eaten<EOS>avez vous mangé<EOS>
+excuse me please<EOS>excusez moi s'il vous plaît<EOS>
+what time is it<EOS>quelle heure est il<EOS>
+i am happy<EOS>je suis heureux<EOS>
+this is delicious<EOS>c'est délicieux<EOS>
+would you like tea<EOS>voulez vous du thé<EOS>
+i need help<EOS>j'ai besoin d'aide<EOS>
+good night<EOS>bonne nuit<EOS>
+where is the bathroom<EOS>où est la salle de bains<EOS>
+i am hungry<EOS>j'ai faim<EOS>
+do you like music<EOS>aimez vous la musique<EOS>
+my name is john<EOS>mon nom est john<EOS>
+can you help me<EOS>pouvez vous m'aider<EOS>
+how old are you<EOS>quel âge avez vous<EOS>
+i love you<EOS>je t'aime<EOS>
+what is this<EOS>qu'est ce que c'est<EOS>
+this is beautiful<EOS>c'est magnifique<EOS>
+do you have time<EOS>avez vous du temps<EOS>
+i am tired<EOS>je suis fatigué<EOS>
+let's go<EOS>allons y<EOS>
+good bye<EOS>au revoir<EOS>
+welcome<EOS>bienvenue<EOS>
+it's cold today<EOS>il fait froid aujourd'hui<EOS>
+i understand<EOS>je comprends<EOS>
+i don't understand<EOS>je ne comprends pas<EOS>
+please speak slowly<EOS>parlez lentement s'il vous plaît<EOS>
+can i sit here<EOS>puis je m'asseoir ici<EOS>
+what is the price<EOS>quel est le prix<EOS>
+i am from america<EOS>je viens d'amérique<EOS>
+do you have children<EOS>avez vous des enfants<EOS>
+this tastes good<EOS>ça a bon goût<EOS>
+how are you<EOS>comment ça va<EOS>
+i am a student<EOS>je suis étudiant<EOS>
+thank you<EOS>merci<EOS>
+good morning<EOS>bon matin<EOS>
+my friend<EOS>mon ami<EOS>
