@@ -1,4 +1,4 @@
-# Personal Qwen2.5 Model – "Badasz Fan AI"
+# Personal Qwen2.5 Model – "Badasz's Number 1 AI Fan"
 
 This repository contains a **fine-tuned Qwen2.5 model** trained with **QLoRA** to act as my personal AI assistant — essentially my #1 fan!  
 
