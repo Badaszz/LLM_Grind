@@ -36,3 +36,5 @@ A personal workspace documenting experiments and notes while following the LLM c
 
 - `Supervised_finetuning/` — Contains a fine-tuned Qwen2.5 model trained with QLoRA to act as a personal AI assistant ("Badasz Fan AI"). Includes training data in `data/dataset.jsonl`, fine-tuned model weights in `personal_qwen/`, the `personal_qwen.py` CLI interface for interactive chat, and `QWEN2_5_finetune.ipynb` notebook documenting the fine-tuning process.
 
+- `Preference_alignment/` - Contiains code for preference alignment using ORPO, using a template from mlabonne, modified by adamlucek
+
