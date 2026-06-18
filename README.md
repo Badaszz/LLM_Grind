@@ -4,37 +4,42 @@ A personal workspace documenting experiments and notes while following the LLM c
 
 ## Overview
 - Purpose: experimental playground for learning LLM concepts, decoding strategies, small model analyses, and sequence models.
+- Structure: organized into three main areas for engineering, fundamentals, and science-focused experiments.
 
+## Project structure
+
+- `LLM_Engineering/` — prompt engineering experiments and notebooks for designing, testing, and refining prompts.
+- `LLM_Fundamentals/` — core NLP tutorials and classification examples using standard NLP tools like spaCy.
+- `LLM_Science/` — research-style investigations, decoding strategy analysis, model training workflows, local model artifacts, and fine-tuning experiments.
+
+Each folder includes its own `README.md` for a focused introduction to the notebook and experiment sets it contains.
 
 ## Important files and folders
 
-- `decoder_strategies.ipynb` — Visual and programmatic exploration of decoding strategies (greedy, beam search, top-k, nucleus). Contains code to build a small search tree, score tokens, and visualize the search graph. Also includes plotting utilities (uses NetworkX + Graphviz/pydot).
+- `LLM_Engineering/prompting_techniques.ipynb` — notebook exploring prompt engineering methods, examples, and templates.
 
-- `full_seq2seq_pipeline.py` / `full_seq2seq_pipeline.ipynb` — End-to-end seq2seq pipeline examples (data preparation, model training / inference flows).
+- `LLM_Fundamentals/NLP_classification.ipynb` — classification experiments and examples.
+- `LLM_Fundamentals/NLP_For_classification.ipynb` — classification-focused examples and notes.
+- `LLM_Fundamentals/NLP_with_spacy.ipynb` — spaCy-based NLP pipeline examples.
 
-- `CBOW_pytorch.ipynb`, `RNN_pytorch.ipynb` — Classic word-embedding and recurrent network tutorials implemented in PyTorch used to build intuition about representation learning and sequence modeling.
+- `LLM_Science/decoder_strategies.ipynb` — visual and programmatic decoding strategy exploration for greedy, beam, top-k, and nucleus sampling.
+- `LLM_Science/full_seq2seq_pipeline.py` / `LLM_Science/full_seq2seq_pipeline.ipynb` — end-to-end seq2seq pipeline examples.
+- `LLM_Science/CBOW_pytorch.ipynb`, `LLM_Science/RNN_pytorch.ipynb` — classic representation learning and recurrent network tutorials.
+- `LLM_Science/gpt2_analysis.ipynb`, `LLM_Science/microgpt-badasz.ipynb`, `LLM_Science/nanogpt-badasz.ipynb` — transformer experiments and small model analysis.
+- `LLM_Science/models/gpt2/` — locally saved GPT-2 model artifacts for offline use.
+- `LLM_Science/Preference_alignment/` — preference alignment and reward modeling experiments.
+- `LLM_Science/Supervised_finetuning/` — fine-tuning workflows and personal assistant model artifacts.
+- `LLM_Science/quantization/` — model quantization experiments.
+- `LLM_Science/decoding_strategies/` — utilities for sampling and search strategies.
 
-- `gpt2_analysis.ipynb` — Experiments and analysis using GPT-2 via Hugging Face Transformers.
+- `eng_text.txt`, `example.txt`, `Random English Sentences.txt`, `metadata.tsv` — small text resources used across experiments.
+- `sample_en-fr.txt` and `LLM_Science/data/eng-fra.txt` — parallel English–French data used in translation/seq2seq experiments.
+- `yoruba_english_parallel_sample.csv` — English–Yoruba parallel sample data.
+- `data/names/` — name lists per language used for toy NLP tasks.
+- `us-patent-phrase-to-phrase-matching/` — Kaggle-style dataset and CSVs for a separate NLP task.
 
-- `nanogpt-badasz.ipynb` — Notebook for training a small gpt model on shakesphere, it generates shakesphere-like text.
+## Notes
 
-- `seq2seq.ipynb` — Notebook exploring sequence-to-sequence setups (encoder-decoder training and testing).
-
-- `eng_text.txt`, `example.txt`, `Random English Sentences.txt`, `metadata.tsv` — Small textual resources used for toy training, tokenization checks and examples.
-
-- `sample_en-fr.txt` and `data/eng-fra.txt` — Parallel data (English–French) used in translation/seq2seq experiments.
-
-- `yoruba_english_parallel_sample.csv` — Parallel sample data for English–Yoruba experiments.
-
-- `data/names/` — Name lists per language (common NLP toy dataset for character-level models or name classification tasks).
-
-- `models/gpt2/` — Locally saved GPT-2 model artifacts (config, tokenizer files and model weights). Useful for offline inference with Transformers.
-
-- `us-patent-phrase-to-phrase-matching/` — Kaggle-style dataset and CSVs for a separate NLP task (included as part of datasets tried).
-
-- `RNN_pytorch.ipynb` — Implementing RNN with pytorch.
-
-- `Supervised_finetuning/` — Contains a fine-tuned Qwen2.5 model trained with QLoRA to act as a personal AI assistant ("Badasz Fan AI"). Includes training data in `data/dataset.jsonl`, fine-tuned model weights in `personal_qwen/`, the `personal_qwen.py` CLI interface for interactive chat, and `QWEN2_5_finetune.ipynb` notebook documenting the fine-tuning process.
-
-- `Preference_alignment/` - Contiains code for preference alignment using ORPO, using a template from mlabonne, modified by adamlucek
+- Use the `README.md` in each major folder for a quick entry point into that area of the project.
+- Keep notebooks and scripts organized by folder so the workspace stays easy to explore.
 
